@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Testar função",
-    "concluido": false
+    "concluido": true
   },
   {
     "titulo": "Estudar Python com o Jarvs",

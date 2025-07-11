@@ -18,7 +18,8 @@ def menu():
             continue
 
         if escolha == 1:
-            adicionar_tarefa()
+            titulo = input("Digite o título da tarefa: ")
+            adicionar_tarefa(titulo)
         elif escolha == 2:
             listar_tarefas()
         elif escolha == 3:
@@ -50,7 +51,7 @@ def listar_tarefas():
             
 def marcar_tarefa():
     tarefas = carregar_tarefas()
-    print(listar_tarefas())
+    listar_tarefas()
     try:
         numero = int(input("Qual número da tarefa que gostaria de marcar como concluida? "))
         indice = numero - 1
@@ -66,4 +67,4 @@ def marcar_tarefa():
     salvar_tarefas(tarefas)
     print("Tarefa marcada como concluída com sucesso!")
 
-
+menu()
