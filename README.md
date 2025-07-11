@@ -27,8 +27,8 @@ Projeto simples para treinar lógica de programação e manipulação de arquivo
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo
+   git clone https://github.com/matheusmoyaoliveira/gerenciador_tarefas.git
+   cd gerenciador_tarefas
    ```
 
 2. Rode o programa:
