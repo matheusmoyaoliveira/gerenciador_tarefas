@@ -1,14 +1,6 @@
 [
   {
-    "titulo": "Testar função",
-    "concluido": true
-  },
-  {
     "titulo": "Estudar Python com o Jarvs",
     "concluido": true
-  },
-  {
-    "titulo": "Adicionar proximos passos do Projeto 1",
-    "concluido": false
   }
 ]
